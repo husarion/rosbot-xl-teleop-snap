@@ -71,10 +71,12 @@ rosbot-xl-teleop.mux-select <topic>
 Note that when launching the `joy` or `key` app,
 the appropriate topic is automatically selected.
 
-Note that this snap is part of an integrated snaps deployment.
-Other recommended snaps to be installed are,
-
-- [micro-xrce-dds-agent](LINK)
-- [sllidar-ros2](https://snapcraft.io/sllidar-ros2)
-- [rosbot-xl](https://snapcraft.io/rosbot-xl)
-- [rosbot-xl-nav](https://snapcraft.io/rosbot-xl-nav)
+> **Note**
+> This snap is part of an integrated snaps deployment.
+> 
+> Other recommended snaps to be installed are,
+> 
+> - [micro-xrce-dds-agent](LINK)
+> - [sllidar-ros2](https://snapcraft.io/sllidar-ros2)
+> - [rosbot-xl-teleop](https://snapcraft.io/rosbot-xl-teleop)
+> - [rosbot-xl-nav](https://snapcraft.io/rosbot-xl-nav)
