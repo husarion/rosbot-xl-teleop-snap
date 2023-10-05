@@ -32,7 +32,7 @@ The interface `ros-humble` must be connected.
 If it isn't, you can issue the following command,
 
 ```bash
-snap connect rosbot-xl:ros-humble ros-humble-ros-base
+snap connect rosbot-xl-teleop:ros-humble ros-humble-ros-base
 ```
 
 ## Use
