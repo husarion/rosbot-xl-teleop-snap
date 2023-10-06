@@ -38,6 +38,13 @@ If it isn't, you can issue the following command,
 snap connect rosbot-xl-teleop:ros-humble ros-humble-ros-base
 ```
 
+Similarly the interfaces `hardware-observe` and `joystick` can be respectively connected with,
+
+```bash
+snap connect rosbot-xl-teleop:hardware-observe
+snap connect rosbot-xl-teleop:joystick
+```
+
 ## Use
 
 ### Joy
