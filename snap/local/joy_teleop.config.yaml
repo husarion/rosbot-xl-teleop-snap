@@ -22,5 +22,5 @@ teleop_twist_joy_node:
       yaw: 0.4
 
     require_enable_button: true
-    enable_button: 4  # LB shoulder button
+    enable_button: 4  # TL shoulder button
     enable_turbo_button: -1  # disabled

@@ -49,6 +49,11 @@ rosbot-xl-teleop.joy
 ```
 
 This app launches both the gamepad driver as well as the joy teleop node.
+The default configuration is that of a [Logitech F710](https://www.logitechg.com/en-us/products/gamepads/f710-wireless-gamepad.html) with:
+
+- top left trigger for enablement
+- left joystick for for/backward
+- right joystick for rotation
 
 The joy teleop node's configuration file can be found at `$SNAP_COMMON/config/joy_teleop.config.yaml` and can thus be edited.
 Shall you want to reinitialise it,
@@ -76,9 +81,9 @@ the appropriate topic is automatically selected.
 
 > **Note**
 > This snap is part of an integrated snaps deployment.
-> 
+>
 > Other recommended snaps to be installed are,
-> 
+>
 > - [micro-xrce-dds-agent](LINK)
 > - [sllidar-ros2](https://snapcraft.io/sllidar-ros2)
 > - [rosbot-xl-teleop](https://snapcraft.io/rosbot-xl-teleop)
