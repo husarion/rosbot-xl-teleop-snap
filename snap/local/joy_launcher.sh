@@ -20,7 +20,7 @@ if [[ -z "${ROSBOT_XL_TELEOP_JOY_DEV}" ]]; then
   ROSBOT_XL_TELEOP_JOY_DEV="/dev/input/js0"
 fi
 
-$SNAP/ros2 launch teleop_twist_joy teleop-launch.py \
+ros2 launch teleop_twist_joy teleop-launch.py \
 joy_vel:=${ROSBOT_XL_TELEOP_JOY_VEL_TOPIC} \
 joy_dev:=${ROSBOT_XL_TELEOP_JOY_DEV} \
 config_filepath:=${ROSBOT_XL_TELEOP_JOY_PARAM_FILE}
